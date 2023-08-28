@@ -1,15 +1,17 @@
 /* general */
 body {
     padding: 10px;
-    background-image: linear-gradient(rgb(255, 255, 255), rgb(199, 190, 213));
-    background-size: cover;
+    background-color: rgb(229, 250, 255);
+    /*background-image: linear-gradient(rgb(255, 255, 255), rgb(229, 250, 255)); */
     font-family: 'Poppins', sans-serif;
+    color: #6e787e;
 }
 
 h1 {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Abril Fatface', cursive;
     font-size: 4rem;
     margin-bottom: 0px;
+    color: rgb(74, 143, 174);
 }
 
 
@@ -20,7 +22,7 @@ header {
 
 a, a:hover, a:visited {
     text-decoration: none;
-    color: blueviolet;
+    color: rgb(74, 143, 174);
     text-transform: uppercase;
     padding: 10px;
 }
@@ -50,7 +52,7 @@ footer {
 
 td {
  border: 1px;
- border-color: #b6a3d1;
+ border-color: #a3aed1;
  border-style: solid;
  padding: 10px;
  padding-right: 30px;
@@ -81,6 +83,6 @@ table {
     border-color: rgb(255, 255, 255);
     border-style: solid;
     text-align: center;
-    box-shadow: 5px 5px 10px #b6a3d1;
+    box-shadow: 5px 5px 10px #a3b7d1;
     padding: 20px;
 }
