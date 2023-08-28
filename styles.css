@@ -1,7 +1,17 @@
 /* general */
 body {
     padding: 10px;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(199, 190, 213));
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
 }
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    margin-bottom: 0px;
+}
+
 
 header {
     text-align: center;
@@ -33,9 +43,26 @@ footer {
 
 /* Goals Page */
 .leftcol {
-    column-width: 200px;
+    font-weight: bold;
+    width: 150px;
+    text-align: center;
 }
 
+td {
+ border: 1px;
+ border-color: #b6a3d1;
+ border-style: solid;
+ padding: 10px;
+ padding-right: 30px;
+
+}
+
+
+table {
+    margin: auto;
+    padding: 30px;
+    border-collapse: collapse;
+}
 
 /* fun page */
 #funcontainer img {
@@ -50,7 +77,10 @@ footer {
 }
 
 #books, #outside, #crochet {
-    border: 2px;
-    border-color: blue;
+    border: 1px;
+    border-color: rgb(255, 255, 255);
     border-style: solid;
+    text-align: center;
+    box-shadow: 5px 5px 10px #b6a3d1;
+    padding: 20px;
 }
