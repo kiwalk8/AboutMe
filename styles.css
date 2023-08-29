@@ -1,8 +1,9 @@
+/* Kimmy Walker CIS 131-W01, 8/28/23 */
+
 /* general */
 body {
     padding: 10px;
     background-color: rgb(229, 250, 255);
-    /*background-image: linear-gradient(rgb(255, 255, 255), rgb(229, 250, 255)); */
     font-family: 'Poppins', sans-serif;
     color: #6e787e;
 }
